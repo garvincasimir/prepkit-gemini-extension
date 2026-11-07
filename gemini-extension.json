@@ -1,0 +1,26 @@
+{
+  "name": "prepkit",
+  "version": "1.0.0",
+  "description": "Build portable learning kits with Gemini, then submit them to PrepKit for learner review and practice.",
+  "mcpServers": {
+    "prepkit": {
+      "httpUrl": "https://mcp.prepkit.cazimedia.com/mcp",
+      "description": "Validate and submit portable KitML packages to the learner's PrepKit account.",
+      "timeout": 30000,
+      "includeTools": [
+        "get_kitml_contract",
+        "get_learning_brief",
+        "validate_kitml",
+        "submit_private_kit",
+        "suggest_private_kit",
+        "list_private_kit_suggestions",
+        "get_submission",
+        "get_kit_progress",
+        "revise_private_kit",
+        "revoke_private_kit_submission",
+        "validate_kitml_source",
+        "submit_private_kit_source"
+      ]
+    }
+  }
+}
